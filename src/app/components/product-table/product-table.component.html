@@ -1,0 +1,15 @@
+<table class="table">
+  <tr>
+    <th>imageUrl</th>
+    <th>name</th>
+    <th>unitPrice</th>
+  </tr>
+  <tr *ngFor="let kien of product">
+    <td>
+      <img src="{{kien.imageUrl}}" width="50px" height="30px">
+    </td>
+    <td>{{kien.name}}</td>
+    <td>{{kien.unitPrice}}</td>
+  </tr>
+</table>
+
